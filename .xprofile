@@ -1,0 +1,7 @@
+sxhkd -c /home/ravi/.config/sxhkd/sxhkdrc &
+xrandr --output HDMI1 --right-of LVDS1 --mode 1920x1080 &
+urxvtd &
+tilda &
+synergys &
+exec  /home/ravi/progs/"wallpaper.sh" &
+exec bspwm
