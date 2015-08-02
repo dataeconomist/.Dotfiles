@@ -1,1 +1,3 @@
-slop
+#!/bin/zsh
+
+uzbl-browser -g $(slop -f %wx%h+%x+%y)
